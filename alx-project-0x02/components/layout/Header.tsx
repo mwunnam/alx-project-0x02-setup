@@ -15,6 +15,9 @@ export default function Header() {
           <li> 
             <Link href="/contact" className="hover:text-blue-200 transition">Contact Us</Link>
           </li>
+          <li>
+            <Link href="/posts" className="hover:text-blue-200 transition">Posts</Link>
+          </li>
         </ul>
       </nav>
     </header>
