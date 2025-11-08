@@ -7,7 +7,7 @@ export default function Header() {
         <h1>My App</h1>
         <ul>
           <li>
-            <Link href="/" className="hover:text-blue-200 transition">Home</Link>
+            <Link href="/home" className="hover:text-blue-200 transition">Home</Link>
           </li>
           <li>
             <Link href="/about" className="hover:text-blue-200 transition">About</Link>
