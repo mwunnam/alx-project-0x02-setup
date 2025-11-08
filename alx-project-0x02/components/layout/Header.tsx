@@ -1,20 +1,22 @@
+import Link from 'next/link';
 
 export default function Header() {
   return (
-    <>
-      <header className="flex bg-gray">
-        <div>
-          <h2>Logo</h2>
-        </div>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Blog</li>
-            <li>About</li>
-            <li>Contact Us</li>
-          </ul>
-        </nav>
-      </header>
-    </>
+    <header>
+      <nav>
+        <h1>My App</h1>
+        <ul>
+          <li>
+            <Link href="/" className="hover:text-blue-200 transition">Home</Link>
+          </li>
+          <li>
+            <Link href="/about" className="hover:text-blue-200 transition">About</Link>
+          </li>
+          <li> 
+            <Link href="/contact" className="hover:text-blue-200 transition">Contact Us</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   )
 }
