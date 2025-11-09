@@ -21,3 +21,9 @@ export interface PostCardProps {
   content: string;
   userId: number;
 }
+
+export interface UserCardProps {
+  name: string,
+  email: string,
+  address: string,
+}
