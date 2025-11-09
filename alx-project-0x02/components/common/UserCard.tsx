@@ -1,6 +1,8 @@
 import { UserCardProps } from '@/interfaces';
 import React, { useState }from 'react';
 
+function getStaticProps();
+
 const UserCard: React.FC<userCardProps> = ({ name, email, address }) => {
   return (
     <div className="rounded-lg border-gray-400 shadow-md p-2 mt-2">
