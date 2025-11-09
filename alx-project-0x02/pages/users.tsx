@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import UserCard from '@/components/common/UserCard';
 import {UserCardProps } from '@/interfaces';
 
+function getStaticProps();
 
 export default function Users() {
   const [users, setUsers] = useState<UserCardProps[]>([]);
