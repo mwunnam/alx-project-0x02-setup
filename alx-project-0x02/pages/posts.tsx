@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header";
-import {GetStaticProps } from 'next';
+import { GetStaticProps } from 'next';
 import React, { useEffect, useState } from 'react';
 import PostCard from "@/components/common/PostCard";
 import { PostCardprops } from '@/interfaces';
@@ -52,3 +52,4 @@ export default function Posts() {
     </main>
   );
 }
+getStaticProps
